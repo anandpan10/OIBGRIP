@@ -1,0 +1,150 @@
+body{
+    background-color: burlywood;
+}
+.container{
+    margin:0%;
+}
+.container h1{
+    text-align: center;
+    background-color: coral;
+    text-decoration: solid;
+    text-shadow: darkcyan -4px;
+}
+#beta img{
+    height: 400px;
+    width: 100%;
+    border-style: solid;
+    position: relative;
+
+}
+#sigma{
+    margin: 16px 7px 0px 3px;
+}
+#sigma h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 118%;
+    text-align: center;
+    padding: 10px;
+    background-color: brown;
+}
+#sigma p{
+    background-color: cornsilk;
+    margin: 19px 188px 13px;
+    padding: 25px;
+}
+#sigma img{
+    height: 400px;
+    width: 100%;
+    border-style: solid;
+    position: relative;
+}
+#alpha{
+    background-color: antiquewhite;
+}
+.addition {
+    margin-left: 36%;
+    margin-top: -5%;
+}
+.slideshow {
+    margin: 0 auto;
+    padding-top: 50px;
+    height: 454px;
+    box-sizing: border-box;
+}
+
+.content {
+    margin: auto;
+    width: 288px;
+    perspective: 1000px;
+    position: relative;
+    padding-top: 80px;
+}
+
+.content-carrousel {
+    padding-left: 40px;
+    width: 100%;
+    position: absolute;
+    float: right;
+    animation: rotar 15s infinite linear;
+    transform-style: preserve-3d;
+}
+
+.content-carrousel:hover {
+    animation-play-state: paused;
+    cursor: pointer;
+}
+
+.content-carrousel figure {
+    width: 100%;
+    height: 120px;
+    border: 1px solid #4d444d;
+    overflow: hidden;
+    position: absolute;
+}
+
+.content-carrousel figure:nth-child(1) {
+    transform: rotateY(0deg) translateZ(300px);
+}
+
+.content-carrousel figure:nth-child(2) {
+    transform: rotateY(60deg) translateZ(300px);
+}
+
+.content-carrousel figure:nth-child(3) {
+    transform: rotateY(120deg) translateZ(300px);
+}
+
+.content-carrousel figure:nth-child(4) {
+    transform: rotateY(180deg) translateZ(300px);
+}
+
+.content-carrousel figure:nth-child(5) {
+    transform: rotateY(240deg) translateZ(300px);
+}
+
+.content-carrousel figure:nth-child(6) {
+    transform: rotateY(300deg) translateZ(300px);
+}
+
+.content-carrousel figure:nth-child(7) {
+    transform: rotateY(360deg) translateZ(300px);
+}
+
+.slideshow {
+    position: absolute;
+    border-radius: 2px;
+}
+
+.content-carrousel img {
+    image-rendering: auto;
+    transition: all 300ms;
+    width: 100%;
+    height: 100%;
+}
+
+.content-carrousel img:hover {
+    transform: scale(1.2);
+    transition: all 300ms;
+}
+
+@keyframes rotar {
+    from {
+        transform: rotateY(0deg);
+    }
+
+    to {
+        transform: rotateY(360deg);
+    }
+}
+.last
+{
+    text-align: right;
+    margin: -12px 8px 0px;
+    background-color: yellowgreen;
+}
+.last a:hover{
+    color: darkblue;
+    cursor:pointer;
+    background-color: antiquewhite;
+
+}
